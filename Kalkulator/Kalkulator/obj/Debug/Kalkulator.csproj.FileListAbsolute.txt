@@ -1,0 +1,7 @@
+U:\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+U:\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+U:\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cache
+U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
