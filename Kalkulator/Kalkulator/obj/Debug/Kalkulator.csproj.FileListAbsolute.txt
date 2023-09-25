@@ -5,3 +5,10 @@ U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cach
 U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
 U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
 U:\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
+U:\AAAPRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+U:\AAAPRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+U:\AAAPRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cache
+U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
