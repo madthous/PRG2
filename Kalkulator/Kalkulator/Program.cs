@@ -10,65 +10,80 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-            double res;
+            double res = 1;
             double lastres = 0;
             string input;
             double a;
             double b;
             bool o;
             bool p = true;
-            bool q;
+            bool q = true;
             Console.WriteLine("Zmáčkni jakoukoli klávesu pro kalkulátor");
             while (p)
             {
                 a = 0;
                 b = 0;
-                res = 0;
                 o = true;
-                Console.WriteLine();
+                q = true;
                 Console.WriteLine("Zadej numero uno/základ");
                 while (a == 0)
                 {
-                    if (lastres != 0)
+                    if (lastres == res)
                     {
-                        Console.WriteLine("Chceš zadat minulý výsledek?");
-                        input = Console.ReadLine();
-                        if (input != "ano" || input != "ne")
+                        Console.WriteLine("");
+                        Console.WriteLine("Chceš zadat minulý výsledek jako numero uno?");
+                        while (q)
                         {
-                            Console.WriteLine(" ano nebo ne");
-                        }
-                        else if (input == "ano")
-                        {
-                            a = lastres;
-                        }
-                        else
-                        {
-                            if (double.TryParse(Console.ReadLine(), out a))
+                            input = Console.ReadLine();
+                            if (input == "ano")
                             {
-                                Console.WriteLine($"Povedlo se, hodnotoš: {a}");
+                                a = lastres;
+                                q = false;
+                            }
+                            else if (input != "ne")
+                            {
+                                Console.WriteLine(" ano nebo ne");
                             }
                             else
                             {
-                                Console.WriteLine("Zkus to znova");
+                                Console.WriteLine("Tak zadej numero uno");
+                                while (q)
+                                {
+                                    if (double.TryParse(Console.ReadLine(), out a))
+                                    {
+                                        Console.WriteLine($"Povedlo se, hodnotoš: {a}");
+                                        q = false;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Zkus to znova");
+                                    }
+                                }
+                                
                             }
                         }
+                        
                     }
-                    if (double.TryParse(Console.ReadLine(), out a))
-                    {
-                        Console.WriteLine($"Povedlo se, hodnotoš: {a}");
+                    else {
+                        if (double.TryParse(Console.ReadLine(), out a))
+                        {
+                            Console.WriteLine($"Povedlo se, hodnotoš: {a}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Zkus to znova");
+                        }
                     }
-                    else
-                    {
-                        Console.WriteLine("Zkus to znova");
-                    }
+                    
                 }
                     
 
                 Console.WriteLine("Zadej numero dos:");
                 while (b == 0)
                     if (double.TryParse(Console.ReadLine(), out b))
-                    {
+                    {                       
                         Console.WriteLine($"Povedlo se, hodnotoš: {b}");
+                        /*Dolárek mi poradil ChatGPT*/
                     }
                     else
                     {
@@ -129,14 +144,16 @@ namespace Kalkulator
                             o = true;
                             break;
                     }
+                }
                     lastres = res;
                     Console.WriteLine("Výsledek činí: " + res);
-                    if (Console.ReadKey().Key != ConsoleKey.Escape)
+                Console.WriteLine("Zmáčkni ESC pro ukončení, nebo cokoliv jinýho pro pokračování.");
+                    if (Console.ReadKey().Key == ConsoleKey.Escape)
                     {
                         p = false;
                     }
                     
-                }
+                
             }
         }
     }
