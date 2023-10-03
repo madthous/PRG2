@@ -15,21 +15,37 @@ namespace _26_9
             int human = 0;
             int kompl = 0;
             bool g = true;
-            Console.WriteLine("Kámen, nůžky nebo papír?");
-            string input = Console.ReadLine();
+            bool p = true;
+            string input= "";
+            int komplinput = 0;
+
             while(g)
             {
-                int komplinput = 0;
+                p = true;
+                while (p)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Kámen, nůžky nebo papír?");
+                    input = Console.ReadLine();
+                    if (input == "kámen" || input == "nůžky" || input == "papír")
+                    {
+                        Console.WriteLine("Vybral jsi: " + input);
+                        Console.WriteLine();
+                        p = false;
+                    }
+
+                }
+                
                 komplinput = rnd.Next(1, 4);
-                switch ($"{komplinput}input")
+                switch (komplinput+input)
                 {
                     case ("1nůžky"):
-                        Console.WriteLine("Kompjůtr dal kámen a prohrál");
-                        human++;
+                        Console.WriteLine("Kompjůtr dal kámen a vyhrál");
+                        kompl++;
                         break;
                     case ("1papír"):
-                        Console.WriteLine("Kompjůtr hodil kámen a vyhrál");
-                        kompl++;
+                        Console.WriteLine("Kompjůtr hodil kámen a prohrál");
+                        human++;
                         break; 
                     case ("2kámen"):
                         Console.WriteLine("Kompjůtr hodil nůžky a prohrál");
@@ -51,7 +67,12 @@ namespace _26_9
                         Console.WriteLine("Plichta");
                         break;
                 }
-                Console.WriteLine(komplinput);
+                Console.WriteLine();
+                Console.WriteLine("Kompjůtr: " + kompl);
+                Console.WriteLine();
+                Console.WriteLine("Člověk: " + human);
+                Console.WriteLine();
+                Console.WriteLine();
                 Console.WriteLine("Pro ukončení zmáčkni ESC, pro pokračování jakoukoli jinou klávesu");
                 if (Console.ReadKey().Key == ConsoleKey.Escape)
                 {
