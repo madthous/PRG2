@@ -1,0 +1,7 @@
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\bin\Debug\3_10_deathroll.exe.config
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\bin\Debug\3_10_deathroll.exe
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\bin\Debug\3_10_deathroll.pdb
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\obj\Debug\3_10_deathroll.csproj.AssemblyReference.cache
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\obj\Debug\3_10_deathroll.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\obj\Debug\3_10_deathroll.exe
+U:\AAAPRG2\3_10_deathroll\3_10_deathroll\obj\Debug\3_10_deathroll.pdb
