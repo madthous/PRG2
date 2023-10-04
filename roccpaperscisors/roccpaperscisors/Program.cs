@@ -1,25 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26_9
+namespace roccpaperscisors
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             Random rnd = new Random();
             int human = 0;
             int kompl = 0;
             bool g = true;
             bool p = true;
-            string input= "";
+            string input = "";
             int komplinput = 0;
 
-            while(g)
+            while (g)
             {
                 p = true;
                 while (p)
@@ -35,9 +35,9 @@ namespace _26_9
                     }
 
                 }
-                
+
                 komplinput = rnd.Next(1, 4);
-                switch (komplinput+input)
+                switch (komplinput + input)
                 {
                     case ("1nůžky"):
                         Console.WriteLine("Kompjůtr dal kámen a vyhrál");
@@ -46,7 +46,7 @@ namespace _26_9
                     case ("1papír"):
                         Console.WriteLine("Kompjůtr hodil kámen a prohrál");
                         human++;
-                        break; 
+                        break;
                     case ("2kámen"):
                         Console.WriteLine("Kompjůtr hodil nůžky a prohrál");
                         human++;
@@ -78,9 +78,8 @@ namespace _26_9
                 {
                     g = false;
                 }
-                
+
             }
-            
         }
     }
 }

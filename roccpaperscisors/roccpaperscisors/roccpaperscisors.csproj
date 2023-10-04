@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4AACE6C1-7DD1-4D64-BF16-2692FA6F886A}</ProjectGuid>
+    <ProjectGuid>{6D755FD2-59AE-4673-B624-C9B6CA2618DA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_26_9</RootNamespace>
-    <AssemblyName>26_9</AssemblyName>
+    <RootNamespace>roccpaperscisors</RootNamespace>
+    <AssemblyName>roccpaperscisors</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

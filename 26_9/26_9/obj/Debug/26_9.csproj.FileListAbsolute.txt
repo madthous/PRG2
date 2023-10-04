@@ -1,7 +1,0 @@
-U:\AAAPRG2\26_9\26_9\bin\Debug\26_9.exe.config
-U:\AAAPRG2\26_9\26_9\bin\Debug\26_9.exe
-U:\AAAPRG2\26_9\26_9\bin\Debug\26_9.pdb
-U:\AAAPRG2\26_9\26_9\obj\Debug\26_9.csproj.AssemblyReference.cache
-U:\AAAPRG2\26_9\26_9\obj\Debug\26_9.csproj.CoreCompileInputs.cache
-U:\AAAPRG2\26_9\26_9\obj\Debug\26_9.exe
-U:\AAAPRG2\26_9\26_9\obj\Debug\26_9.pdb
