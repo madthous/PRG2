@@ -12,3 +12,10 @@ U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.c
 U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
 U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
 U:\AAAPRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
