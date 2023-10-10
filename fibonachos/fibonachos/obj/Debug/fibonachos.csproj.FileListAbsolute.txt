@@ -1,0 +1,7 @@
+U:\AAAPRG2\fibonachos\fibonachos\bin\Debug\fibonachos.exe.config
+U:\AAAPRG2\fibonachos\fibonachos\bin\Debug\fibonachos.exe
+U:\AAAPRG2\fibonachos\fibonachos\bin\Debug\fibonachos.pdb
+U:\AAAPRG2\fibonachos\fibonachos\obj\Debug\fibonachos.csproj.AssemblyReference.cache
+U:\AAAPRG2\fibonachos\fibonachos\obj\Debug\fibonachos.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\fibonachos\fibonachos\obj\Debug\fibonachos.exe
+U:\AAAPRG2\fibonachos\fibonachos\obj\Debug\fibonachos.pdb
