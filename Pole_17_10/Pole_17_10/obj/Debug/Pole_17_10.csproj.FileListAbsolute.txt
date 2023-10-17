@@ -1,0 +1,7 @@
+U:\AAAPRG2\Pole_17_10\Pole_17_10\bin\Debug\Pole_17_10.exe.config
+U:\AAAPRG2\Pole_17_10\Pole_17_10\bin\Debug\Pole_17_10.exe
+U:\AAAPRG2\Pole_17_10\Pole_17_10\bin\Debug\Pole_17_10.pdb
+U:\AAAPRG2\Pole_17_10\Pole_17_10\obj\Debug\Pole_17_10.csproj.AssemblyReference.cache
+U:\AAAPRG2\Pole_17_10\Pole_17_10\obj\Debug\Pole_17_10.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\Pole_17_10\Pole_17_10\obj\Debug\Pole_17_10.exe
+U:\AAAPRG2\Pole_17_10\Pole_17_10\obj\Debug\Pole_17_10.pdb
