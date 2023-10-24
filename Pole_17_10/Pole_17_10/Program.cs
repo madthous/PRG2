@@ -58,16 +58,16 @@ namespace ArrayPlayground
                 }
 
                 //TODO 8: Změň tvorbu integerového pole tak, že bude obsahovat 100 náhodně vygenerovaných čísel od 0 do 9. Vytvoř si na to proměnnou typu Random.
-                int[] randomNumbers = new int[100];
-                Random random = new Random();
-                for (int i = 0; i < randomNumbers.Length; i++)
+                int[] rndarr = new int[100];
+                Random rnd = new Random();
+                for (int i = 0; i < rndarr.Length; i++)
                 {
-                    randomNumbers[i] = random.Next(10);
+                    rndarr[i] = rnd.Next(10);
                 }
 
                 //TODO 9: Spočítej kolikrát se každé číslo v poli vyskytuje a spočítané četnosti vypiš do konzole.
                 int[] counts = new int[10];
-                foreach (int num in randomNumbers)
+                foreach (int num in rndarr)
                 {
                     counts[num]++;
                 }
@@ -77,10 +77,10 @@ namespace ArrayPlayground
                 }
 
                 //TODO 10: Vytvoř druhé pole, do kterého zkopíruješ prvky z prvního pole v opačném pořadí.
-                int[] reversedNumbers = new int[randomNumbers.Length];
-                for (int i = 0; i < randomNumbers.Length; i++)
+                int[] revarr = new int[rndarr.Length];
+                for (int i = 0; i < rndarr.Length; i++)
                 {
-                    reversedNumbers[i] = randomNumbers[randomNumbers.Length - 1 - i];
+                    revarr[i] = rndarr[rndarr.Length - 1 - i];
                 }
 
                 // Zůstaňte na konci programu, dokud uživatel nezmáčkne klávesu.
