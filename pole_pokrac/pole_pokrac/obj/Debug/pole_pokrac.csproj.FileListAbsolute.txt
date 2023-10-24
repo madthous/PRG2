@@ -1,0 +1,7 @@
+U:\AAAPRG2\pole_pokrac\pole_pokrac\bin\Debug\pole_pokrac.exe.config
+U:\AAAPRG2\pole_pokrac\pole_pokrac\bin\Debug\pole_pokrac.exe
+U:\AAAPRG2\pole_pokrac\pole_pokrac\bin\Debug\pole_pokrac.pdb
+U:\AAAPRG2\pole_pokrac\pole_pokrac\obj\Debug\pole_pokrac.csproj.AssemblyReference.cache
+U:\AAAPRG2\pole_pokrac\pole_pokrac\obj\Debug\pole_pokrac.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\pole_pokrac\pole_pokrac\obj\Debug\pole_pokrac.exe
+U:\AAAPRG2\pole_pokrac\pole_pokrac\obj\Debug\pole_pokrac.pdb
