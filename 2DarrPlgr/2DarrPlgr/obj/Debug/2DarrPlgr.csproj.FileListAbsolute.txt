@@ -1,0 +1,7 @@
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.exe.config
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.exe
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.pdb
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.AssemblyReference.cache
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.exe
+U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.pdb
