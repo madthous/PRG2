@@ -1,0 +1,7 @@
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\bin\Debug\Sorting_plagr.exe.config
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\bin\Debug\Sorting_plagr.exe
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\bin\Debug\Sorting_plagr.pdb
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\obj\Debug\Sorting_plagr.csproj.AssemblyReference.cache
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\obj\Debug\Sorting_plagr.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\obj\Debug\Sorting_plagr.exe
+U:\AAAPRG2\Sorting_plagr\Sorting_plagr\obj\Debug\Sorting_plagr.pdb
