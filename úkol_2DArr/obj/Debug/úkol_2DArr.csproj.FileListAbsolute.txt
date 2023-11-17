@@ -1,0 +1,7 @@
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\bin\Debug\úkol_2DArr.exe.config
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\bin\Debug\úkol_2DArr.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\bin\Debug\úkol_2DArr.pdb
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.AssemblyReference.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.CoreCompileInputs.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.pdb

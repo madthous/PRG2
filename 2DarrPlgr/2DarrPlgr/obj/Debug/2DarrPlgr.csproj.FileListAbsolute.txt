@@ -5,3 +5,10 @@ U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.AssemblyReference.cach
 U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.CoreCompileInputs.cache
 U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.exe
 U:\AAAPRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.pdb
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.exe.config
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\bin\Debug\2DarrPlgr.pdb
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.AssemblyReference.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.csproj.CoreCompileInputs.cache
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.exe
+C:\Users\matou\OneDrive\Plocha\PRG2\2DarrPlgr\2DarrPlgr\obj\Debug\2DarrPlgr.pdb
