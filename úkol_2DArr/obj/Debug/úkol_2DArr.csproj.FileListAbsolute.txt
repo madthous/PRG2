@@ -5,3 +5,10 @@ C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.Ass
 C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.CoreCompileInputs.cache
 C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.exe
 C:\Users\matou\OneDrive\Plocha\PRG2\úkol_2DArr\obj\Debug\úkol_2DArr.pdb
+U:\AAAPRG2\úkol_2DArr\bin\Debug\úkol_2DArr.exe.config
+U:\AAAPRG2\úkol_2DArr\bin\Debug\úkol_2DArr.exe
+U:\AAAPRG2\úkol_2DArr\bin\Debug\úkol_2DArr.pdb
+U:\AAAPRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.AssemblyReference.cache
+U:\AAAPRG2\úkol_2DArr\obj\Debug\úkol_2DArr.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\úkol_2DArr\obj\Debug\úkol_2DArr.exe
+U:\AAAPRG2\úkol_2DArr\obj\Debug\úkol_2DArr.pdb

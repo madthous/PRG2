@@ -73,6 +73,27 @@ namespace Sorting_plagr
             return sortedArray;
         }
 
+        static int[] MergeSort(int[] array)
+        {
+            int[] sortedArray = (int[])array.Clone(); // Řaď v tomto poli, ve kterém je výchoze zkopírováno všechno ze vstupního pole.
+            int l = array.Length;
+
+            int n;
+            int x;
+            
+            return sortedArray;
+        }
+
+        static int[] QuickSort(int[] array)
+        {
+            int[] sortedArray = (int[])array.Clone(); // Řaď v tomto poli, ve kterém je výchoze zkopírováno všechno ze vstupního pole.
+            int l = array.Length;
+            int n;
+            int x;
+            
+            return sortedArray;
+        }
+
         //Naplní pole náhodnými čísly mezi 1 a velikostí pole.
         static void FillArray(int[] array)
         {
@@ -113,6 +134,12 @@ namespace Sorting_plagr
             sortedArray = InsertionSort(array);
             WriteArrayToConsole(sortedArray, arrayName + " seřazené Insertion sortem");
 
+            sortedArray = MergeSort(array);
+            WriteArrayToConsole(sortedArray, arrayName + " seřazené Insertion sortem");
+
+            sortedArray = QuickSort(array);
+            WriteArrayToConsole(sortedArray, arrayName + " seřazené Insertion sortem");
+
             Console.WriteLine();
         }
 
@@ -133,8 +160,8 @@ namespace Sorting_plagr
             WriteArrayToConsole(mediumArray, "Střední pole");
             SortArray(mediumArray, "Střední pole");
 
-            //WriteArrayToConsole(largeArray, "Velké pole");
-            //SortArray(largeArray, "Velké pole");
+            WriteArrayToConsole(largeArray, "Velké pole");
+            SortArray(largeArray, "Velké pole");
 
             Console.ReadKey();
         }
