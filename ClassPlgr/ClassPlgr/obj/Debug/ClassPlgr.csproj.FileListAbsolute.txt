@@ -1,0 +1,7 @@
+U:\AAAPRG2\ClassPlgr\ClassPlgr\bin\Debug\ClassPlgr.exe.config
+U:\AAAPRG2\ClassPlgr\ClassPlgr\bin\Debug\ClassPlgr.exe
+U:\AAAPRG2\ClassPlgr\ClassPlgr\bin\Debug\ClassPlgr.pdb
+U:\AAAPRG2\ClassPlgr\ClassPlgr\obj\Debug\ClassPlgr.csproj.AssemblyReference.cache
+U:\AAAPRG2\ClassPlgr\ClassPlgr\obj\Debug\ClassPlgr.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\ClassPlgr\ClassPlgr\obj\Debug\ClassPlgr.exe
+U:\AAAPRG2\ClassPlgr\ClassPlgr\obj\Debug\ClassPlgr.pdb
