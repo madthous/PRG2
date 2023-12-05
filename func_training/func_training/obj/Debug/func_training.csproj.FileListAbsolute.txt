@@ -1,0 +1,7 @@
+U:\AAAPRG2\func_training\func_training\bin\Debug\func_training.exe.config
+U:\AAAPRG2\func_training\func_training\bin\Debug\func_training.exe
+U:\AAAPRG2\func_training\func_training\bin\Debug\func_training.pdb
+U:\AAAPRG2\func_training\func_training\obj\Debug\func_training.csproj.AssemblyReference.cache
+U:\AAAPRG2\func_training\func_training\obj\Debug\func_training.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\func_training\func_training\obj\Debug\func_training.exe
+U:\AAAPRG2\func_training\func_training\obj\Debug\func_training.pdb
