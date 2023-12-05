@@ -1,0 +1,7 @@
+U:\AAAPRG2\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe.config
+U:\AAAPRG2\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.exe
+U:\AAAPRG2\ClassPlayground\ClassPlayground\bin\Debug\ClassPlayground.pdb
+U:\AAAPRG2\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.AssemblyReference.cache
+U:\AAAPRG2\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.exe
+U:\AAAPRG2\ClassPlayground\ClassPlayground\obj\Debug\ClassPlayground.pdb
