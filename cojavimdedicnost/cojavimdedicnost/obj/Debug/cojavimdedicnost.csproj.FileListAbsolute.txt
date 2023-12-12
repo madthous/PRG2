@@ -1,0 +1,7 @@
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\bin\Debug\cojavimdedicnost.exe.config
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\bin\Debug\cojavimdedicnost.exe
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\bin\Debug\cojavimdedicnost.pdb
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\obj\Debug\cojavimdedicnost.csproj.AssemblyReference.cache
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\obj\Debug\cojavimdedicnost.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\obj\Debug\cojavimdedicnost.exe
+U:\AAAPRG2\cojavimdedicnost\cojavimdedicnost\obj\Debug\cojavimdedicnost.pdb
