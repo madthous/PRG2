@@ -66,6 +66,7 @@ namespace ClassPlayground
     {
         static void Main(string[] args)
         {
+            bool run = true;
             Random rnd = new Random();
             double x = rnd.NextDouble() * rnd.Next(500);
             double y = rnd.NextDouble() * rnd.Next(500);
@@ -88,54 +89,31 @@ namespace ClassPlayground
             */
             Rectangle rect = new Rectangle(x, y);
             Console.WriteLine($"Rektangul má plochu: {rect.CalculateArea()}cm. Šíře: {x}, výše: {y} - tudíž {rect.DetermineType()}.");
+            Bankacc bankacc = new Bankacc(1458, "Vašek", "CZK", x*y);
+            while (run) 
+            {
+                x = rnd.NextDouble() * rnd.Next(500);
+                y = rnd.NextDouble() * rnd.Next(500);
+                rect = new Rectangle(x, y);
+                bankacc = new Bankacc(rnd.Next(5000),"Brambor", "CZK", rnd.Next(50000000));
+                Console.WriteLine("Vybrat?");
+                if (Console.ReadLine() == "vybrat")
+                {
+                    Console.WriteLine("Vložte částku");
+                    bankacc.Deposit(int.Parse(Console.ReadLine()));
+                }
 
-            Console.ReadKey();
+                run = Konec(run);
+            }
         }
-    }
-    public class Rectangle
-    {
-        public double width;
-        public double height;
-
-        public Rectangle(double width, double height)
+        static public bool Konec(bool run)
         {
-            this.width = width;
-            this.height = height;
-        }
-        public double CalculateArea()
-        {
-            return width * height;
-        }
-        public string DetermineType()
-        {
-            if (width == height)
+            Console.WriteLine("Jestli chceš skončit, napiš: end");
+            if (Console.ReadLine() == "end")
             {
-                return "Čtverec";
+               run = false;
             }
-            else if (width > height)
-            {
-                return "široký";
-            }
-            else { return "vysoký"; }
-        }
-    public class Bankacc
-        {
-            public int accountNumber;
-            public string holderName;
-            public string currency;
-            public double balance;
-            public Bankacc(int accountNumber, string holderName, string currency, double balance)
-            {
-                
-            }
-            public void Deposit()
-            {
-
-            }
-            public void Withdraw()
-            {
-
-            }
+            return run;
         }
     }
 }
