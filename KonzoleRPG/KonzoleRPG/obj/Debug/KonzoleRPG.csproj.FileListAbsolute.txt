@@ -1,0 +1,7 @@
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.exe.config
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.exe
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.pdb
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.AssemblyReference.cache
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.exe
+U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.pdb
