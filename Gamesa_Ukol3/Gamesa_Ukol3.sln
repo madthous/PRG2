@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamesa_Ukol3", "Gamesa_Ukol3\Gamesa_Ukol3.csproj", "{1C47C0A4-21B5-4F1B-B007-CB6AA59A2AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C47C0A4-21B5-4F1B-B007-CB6AA59A2AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C47C0A4-21B5-4F1B-B007-CB6AA59A2AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C47C0A4-21B5-4F1B-B007-CB6AA59A2AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C47C0A4-21B5-4F1B-B007-CB6AA59A2AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7AB1A73-D2A3-415D-94D2-C69F9C2BA0BA}
+	EndGlobalSection
+EndGlobal
