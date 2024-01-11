@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace ConsoleRPG
 {
@@ -6,7 +7,7 @@ namespace ConsoleRPG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Console RPG!");
+            Console.WriteLine("Právě hraješ konzolové RPG!");
             Player player = CreatePlayer();
 
             bool gameOver = false;
@@ -24,24 +25,24 @@ namespace ConsoleRPG
                         ShowPlayerStatus(player);
                         break;
                     case "3":
-                        Console.WriteLine("Exiting game...");
+                        Console.WriteLine("Ukončuji...");
                         gameOver = true;
                         break;
                     default:
-                        Console.WriteLine("Invalid input. Try again.");
+                        Console.WriteLine("Tohle tu nefunguje(vybíráš pomocí: 1, 2, 3). Zkus to znovu.");
                         break;
                 }
             }
 
-            Console.WriteLine("Thanks for playing Console RPG!");
+            Console.WriteLine("Měj se!");
         }
 
         static Player CreatePlayer()
         {
-            Console.WriteLine("Enter your hero's name: ");
+            Console.WriteLine("A jakpak se jmenuješ? ");
             string playerName = Console.ReadLine();
             Player player = new Player(playerName, 100, 10, 1, 0, 100);
-            Console.WriteLine($"Welcome, {playerName}!");
+            Console.WriteLine($"Vítej, {playerName}!");
 
             return player;
         }
@@ -49,21 +50,21 @@ namespace ConsoleRPG
         static void DisplayMainMenu()
         {
             Console.WriteLine("\nMain Menu:");
-            Console.WriteLine("1. Explore");
-            Console.WriteLine("2. Show Player Status");
-            Console.WriteLine("3. Exit");
-            Console.Write("Choose an action: ");
+            Console.WriteLine("1. Jdeme prozkoumávat");
+            Console.WriteLine("2. Jak to se mnou vypadá?");
+            Console.WriteLine("3. Zpět");
+            Console.Write("Kterou akci chceš provést?");
         }
-
+        
         static void Explore(Player player)
         {
             Random random = new Random();
-            int encounterChance = random.Next(1, 11); // Random chance of encounter
+            int encounterChance = random.Next(1, 11); 
 
-            if (encounterChance <= 7) // 70% chance of an encounter
+            if (encounterChance <= 7)
             {
                 Enemy enemy = EnemyFactory.CreateRandomEnemy();
-                Console.WriteLine($"You've encountered a {enemy.Name}!");
+                Console.WriteLine($"Narazil jsi na {enemy.Name}!");
 
                 bool battleOver = false;
                 while (!battleOver)
@@ -77,7 +78,7 @@ namespace ConsoleRPG
                             player.Attack(enemy);
                             if (enemy.IsDead())
                             {
-                                Console.WriteLine($"You defeated the {enemy.Name}!");
+                                Console.WriteLine($"Porazil jsi: {enemy.Name}!");
                                 player.GainExperience(enemy.ExperiencePoints);
                                 battleOver = true;
                             }
@@ -86,43 +87,43 @@ namespace ConsoleRPG
                                 enemy.Attack(player);
                                 if (player.IsDead())
                                 {
-                                    Console.WriteLine("You were defeated!");
+                                    Console.WriteLine("Byl jsi poražen!");
                                     battleOver = true;
                                 }
                             }
                             break;
                         case "2":
-                            Console.WriteLine("Running away...");
+                            Console.WriteLine("Útěk...");
                             battleOver = true;
                             break;
                         default:
-                            Console.WriteLine("Invalid input. Try again.");
+                            Console.WriteLine("Tohle tu nefunguje(vybíráš pomocí: 1, 2, 3). Zkus to znovu.");
                             break;
                     }
                 }
             }
             else
             {
-                Console.WriteLine("You explored but found nothing.");
+                Console.WriteLine("Jaj, nic jsi nenašel.");
             }
         }
 
         static void DisplayBattleOptions()
         {
-            Console.WriteLine("\nBattle Options:");
-            Console.WriteLine("1. Attack");
-            Console.WriteLine("2. Run Away");
-            Console.Write("Choose an action: ");
+            Console.WriteLine("\nCopak uděláš?");
+            Console.WriteLine("1. Útooook");
+            Console.WriteLine("2. Uteču(bojím se)");
+            Console.Write("Vybírej opatrně: ");
         }
 
         static void ShowPlayerStatus(Player player)
         {
-            Console.WriteLine($"\nPlayer Status:");
-            Console.WriteLine($"Name: {player.Name}");
-            Console.WriteLine($"Health: {player.Health}");
-            Console.WriteLine($"Damage: {player.Damage}");
+            Console.WriteLine($"\nTakhle na tom jsi:");
+            Console.WriteLine($"Jméno: {player.Name}");
+            Console.WriteLine($"Životy: {player.Health}");
+            Console.WriteLine($"Poškození: {player.Damage}");
             Console.WriteLine($"Level: {player.Level}");
-            Console.WriteLine($"Experience: {player.Experience}/{player.ExperienceToLevelUp}");
+            Console.WriteLine($"Zkušenosti: {player.Experience}/{player.ExperienceToLevelUp}");
         }
     }
 
@@ -153,15 +154,15 @@ namespace ConsoleRPG
 
         public void Attack(Enemy enemy)
         {
-            int damageDealt = new Random().Next(1, Damage + 1); // Calculate random damage within player's damage range
+            int damageDealt = new Random().Next(1, Damage + 1); 
             enemy.Health -= damageDealt;
-            Console.WriteLine($"You attacked {enemy.Name} for {damageDealt} damage!");
+            Console.WriteLine($"Zaútočil jsi na {enemy.Name} a dal jsi {damageDealt} Poškození!");
         }
 
         public void GainExperience(int points)
         {
             Experience += points;
-            Console.WriteLine($"You gained {points} experience!");
+            Console.WriteLine($"Získal jsi {points} zkušeností!");
             if (Experience >= ExperienceToLevelUp)
             {
                 LevelUp();
@@ -171,13 +172,13 @@ namespace ConsoleRPG
         private void LevelUp()
         {
             Level++;
-            Console.WriteLine($"Congratulations! You reached Level {Level}!");
+            Console.WriteLine($"Level up! Dosáhl jsi levelu {Level}!");
 
-            // Increase stats or add new abilities upon leveling up
+            
             Health += 20;
             Damage += 5;
 
-            // Reset experience and set a higher threshold for next level
+            
             Experience -= ExperienceToLevelUp;
             ExperienceToLevelUp = (int)(ExperienceToLevelUp * 1.5);
         }
@@ -187,7 +188,36 @@ namespace ConsoleRPG
             return Health <= 0;
         }
     }
+    class Place
+    {
+        public string Name { get; }
+        public string Buff { get; set; }
 
+        public Place(string name, string buff)
+        {
+            Name = name;
+            Buff = buff;
+        }
+
+        
+
+        
+    }
+    static class Places
+    {
+
+        private static readonly string[] Types = { "Město", "Vesnice", "Les", "Louka", };
+        private static readonly string[] Buffs = { "Město", "Vesnice", "Les", "Louka", };
+        private static readonly Random Random = new Random();
+
+        public static Place ChoosePlace()
+        {
+            string placeType = Types[Random.Next(Types.Length)];
+            string placeBuff = Buffs[Random.Next(Buffs.Length)];
+
+            return new Place(placeType, placeBuff);
+        }
+    }
     class Enemy
     {
         public string Name { get; }
@@ -205,9 +235,9 @@ namespace ConsoleRPG
 
         public void Attack(Player player)
         {
-            int damageDealt = new Random().Next(1, Damage + 1); // Calculate random damage within enemy's damage range
+            int damageDealt = new Random().Next(1, Damage + 1);
             player.Health -= damageDealt;
-            Console.WriteLine($"{Name} attacked you for {damageDealt} damage!");
+            Console.WriteLine($"{Name} na tebe zaútočil a udělil {damageDealt} poškození!");
         }
 
         public bool IsDead()
@@ -215,18 +245,18 @@ namespace ConsoleRPG
             return Health <= 0;
         }
     }
-
+    
     static class EnemyFactory
     {
-        private static readonly string[] EnemyTypes = { "Goblin", "Skeleton", "Orc", "Dragon" };
+        private static readonly string[] EnemyTypes = { "Goblin", "Kostlivec", "Ork", "Drak", "Zombie" };
         private static readonly Random Random = new Random();
 
         public static Enemy CreateRandomEnemy()
         {
-            string enemyType = EnemyTypes[Random.Next(EnemyTypes.Length)]; // Get a random enemy type from the list
-            int enemyHealth = Random.Next(30, 101); // Random health between 30 and 100
-            int enemyDamage = Random.Next(5, 21); // Random damage between 5 and 20
-            int enemyExperience = (int)Math.Round((double)(enemyHealth + enemyDamage) / 2); // Calculate experience based on enemy stats
+            string enemyType = EnemyTypes[Random.Next(EnemyTypes.Length)];
+            int enemyHealth = Random.Next(30, 101);
+            int enemyDamage = Random.Next(5, 21);
+            int enemyExperience = (int)Math.Round((double)(enemyHealth + enemyDamage) / 2);
 
             return new Enemy(enemyType, enemyHealth, enemyDamage, enemyExperience);
         }
