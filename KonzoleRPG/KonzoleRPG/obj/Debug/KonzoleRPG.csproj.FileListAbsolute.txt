@@ -5,3 +5,10 @@ U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.AssemblyReference.c
 U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.CoreCompileInputs.cache
 U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.exe
 U:\AAAPRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.pdb
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.exe.config
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.exe
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\bin\Debug\KonzoleRPG.pdb
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.AssemblyReference.cache
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.csproj.CoreCompileInputs.cache
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.exe
+C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\KonzoleRPG\KonzoleRPG\obj\Debug\KonzoleRPG.pdb
