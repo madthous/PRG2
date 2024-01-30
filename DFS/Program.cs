@@ -63,9 +63,15 @@ namespace DFS
 
             Node currentNode = graph.root; // We start in root and we want to find a path from root to the target node
 
-            /*
-             * TODO: Naimplementujte prohledávání do hloubky
-             */
+            foreach (Node node in currentNode.children)
+            {
+                if (!currentNode.visitedChildren.Contains(node))
+                {
+                    currentNode.visitedChildren.Add(node);
+                    currentNode = node;
+                    
+                }
+            }
 
             return pathToTargetNode;
         }
@@ -73,7 +79,7 @@ namespace DFS
         static void Main(string[] args)
         {
             // Change this variable as you wish, just watch out that deeper trees are not very readable in console
-            int treeDepth = 3;
+            int treeDepth = 5;
             BinaryTree binaryTree = new BinaryTree(treeDepth);
 
             // Print the tree
@@ -86,9 +92,10 @@ namespace DFS
             int randomNodeIndex = rng.Next(1, (int)Math.Pow(2, treeDepth));
 
             List<int> path = DepthFirstSearch(binaryTree, randomNodeIndex);
-
-            // Print the path to the node
+            
+            
             Console.Write("Path to node " + randomNodeIndex + " goes as follows: ");
+
             for (int i = path.Count - 1; i >= 0; i--)
             {
                 Console.Write(i);
@@ -96,7 +103,7 @@ namespace DFS
             }
             Console.WriteLine();
 
-            // Used so that the console does not close immediately
+            
             Console.ReadKey();
         }
     }

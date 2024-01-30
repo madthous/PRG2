@@ -5,3 +5,10 @@ C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\DFS\obj\Debug\DFS.cspr
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\DFS\obj\Debug\DFS.csproj.CoreCompileInputs.cache
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\DFS\obj\Debug\DFS.exe
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\DFS\obj\Debug\DFS.pdb
+U:\AAAPRG2\DFS\bin\Debug\DFS.exe.config
+U:\AAAPRG2\DFS\bin\Debug\DFS.exe
+U:\AAAPRG2\DFS\bin\Debug\DFS.pdb
+U:\AAAPRG2\DFS\obj\Debug\DFS.csproj.AssemblyReference.cache
+U:\AAAPRG2\DFS\obj\Debug\DFS.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\DFS\obj\Debug\DFS.exe
+U:\AAAPRG2\DFS\obj\Debug\DFS.pdb
