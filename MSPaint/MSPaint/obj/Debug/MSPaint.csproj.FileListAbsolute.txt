@@ -1,0 +1,10 @@
+U:\AAAPRG2\MSPaint\MSPaint\bin\Debug\MSPaint.exe.config
+U:\AAAPRG2\MSPaint\MSPaint\bin\Debug\MSPaint.exe
+U:\AAAPRG2\MSPaint\MSPaint\bin\Debug\MSPaint.pdb
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.csproj.AssemblyReference.cache
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.Form1.resources
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.Properties.Resources.resources
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.csproj.GenerateResource.cache
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.exe
+U:\AAAPRG2\MSPaint\MSPaint\obj\Debug\MSPaint.pdb
