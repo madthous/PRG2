@@ -79,6 +79,7 @@ namespace Semestralka_Macrohard_Draw
 
         private void kneldikVyber_Click(object sender, EventArgs e)
         {
+            n = 0;
             coldia.ShowDialog();
             clr = coldia.Color;
             panelUkaz.BackColor = clr;
@@ -146,6 +147,7 @@ namespace Semestralka_Macrohard_Draw
                 Bitmap btm = bm.Clone(new Rectangle(0, 0, platno.Width, platno.Height),bm.PixelFormat);
                 btm.Save(sfd.FileName, ImageFormat.Jpeg);
             }
+            //z neznámého důvodu ukládá černé pozadí
             MessageBox.Show("Úspěšně sis uložil výtvor, kongratulace");
         }
 
