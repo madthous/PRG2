@@ -8,3 +8,13 @@ C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\Semestralka_Macrohard_
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.csproj.CoreCompileInputs.cache
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.exe
 C:\Users\matou\OneDrive\Plocha\Schule\Programování\PRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.pdb
+U:\AAAPRG2\Semestralka_Macrohard_Draw\bin\Debug\Semestralka_Macrohard_Draw.exe.config
+U:\AAAPRG2\Semestralka_Macrohard_Draw\bin\Debug\Semestralka_Macrohard_Draw.exe
+U:\AAAPRG2\Semestralka_Macrohard_Draw\bin\Debug\Semestralka_Macrohard_Draw.pdb
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.csproj.AssemblyReference.cache
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.Form1.resources
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.Properties.Resources.resources
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.csproj.GenerateResource.cache
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.exe
+U:\AAAPRG2\Semestralka_Macrohard_Draw\obj\Debug\Semestralka_Macrohard_Draw.pdb
