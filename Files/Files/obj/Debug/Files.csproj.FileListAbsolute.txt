@@ -1,0 +1,10 @@
+U:\AAAPRG2\Files\Files\obj\Debug\Files.csproj.AssemblyReference.cache
+U:\AAAPRG2\Files\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+U:\AAAPRG2\Files\Files\bin\Debug\Files.exe.config
+U:\AAAPRG2\Files\Files\bin\Debug\Files.exe
+U:\AAAPRG2\Files\Files\bin\Debug\Files.pdb
+U:\AAAPRG2\Files\Files\bin\Debug\Newtonsoft.Json.dll
+U:\AAAPRG2\Files\Files\bin\Debug\Newtonsoft.Json.xml
+U:\AAAPRG2\Files\Files\obj\Debug\Files.csproj.CopyComplete
+U:\AAAPRG2\Files\Files\obj\Debug\Files.exe
+U:\AAAPRG2\Files\Files\obj\Debug\Files.pdb
